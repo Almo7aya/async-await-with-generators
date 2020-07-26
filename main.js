@@ -67,4 +67,6 @@ function* asyncContext() {
 
     data = yield fakeLongCb;
     output(data);
+
+    output('DONE !');
 }
